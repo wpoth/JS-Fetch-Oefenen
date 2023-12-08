@@ -25,6 +25,7 @@ fetch("https://dummyjson.com/products")
       cards.innerHTML +=`<div class="card">${product.title}
       <img src="${product.thumbnail}"
       <h3>&euro;${product.price}</h3> 
+      <h3>&euro;${product.discountPercentage}</h3>
       </div> `
     }
   });
